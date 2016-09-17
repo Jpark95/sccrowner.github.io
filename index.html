@@ -1,7 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<title>My Profile</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</head>
+<style>
+.bg-1 {
+	background-image: url(cover_bridge_bike.jpeg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	/*max-width:100%;
+	max-height:100%;*/
+}
+</style>
+<!--<style>
+.bg-2 {
+	background: url(cover_bridge_bike.jpeg);
+}
+</style>-->
+<style>
+.container-fluid{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	height:500px;
+}
+</style>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<nav class="navbar navbar-default">
+		<div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">JAEHEE PARK</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#">Resume</a></li>
+	        <li><a href="#">LinkedIn</a></li>
+	        <li><a href="#">Github</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<div class="container-fluid bg-1">
+		<h3></h3>
+		<img class="img-circle" src="profilePic.jpg" alt="Cover Photo" style="width:250px">
+		<h3></h3>
+	</div>
+	<div class="container bg-2">
+		<h3>My Vision</h3>
+		<p>Personal Statement</p>
+    </div>
+	<div class="container"> <!-- bg-3 text-center">-->
+		<div class="row">
+			<div class="col-sm-4">
+				<h3>My Experience</h3>
+				<img class="img-responsive img-rounded img-center" src="work.jpeg" alt="Image"  style="width:100%">
+			</div>
+			<!--<div class="col-sm-4">
+				<h3>KCM</h3>
+				<img class="img-responsive img-rounded" src="profilePic.jpg" alt="Image" style="width:100%">
+			</div>-->
+			<div class="col-sm-4">
+				<h3>Projects</h3>
+				<img class="img-responsive img-rounded" src="projects.jpg" alt="Image" style="width:100%">
+			</div>
+		</div>
+	</div>
 </body>
 </html>
